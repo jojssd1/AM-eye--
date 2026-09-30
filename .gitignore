@@ -1,0 +1,26 @@
+# ---- 设备原始数据 / 抓取产物 ----
+# out/ 内含海康设备自身的前端 JS（约 27MB，受版权保护）以及设备原始报文，
+# 体积大且不适合公开分发，一律不入库。
+out/
+out_probe.txt
+
+# ---- 本地凭据（务必不要提交）----
+.env
+cam.local.py
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# ---- 编辑器 / 操作系统 ----
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+desktop.ini
